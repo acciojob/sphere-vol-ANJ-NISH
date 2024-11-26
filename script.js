@@ -10,7 +10,7 @@ function volume_sphere() {
 	if(typeof(parseFloat(rvalue))==='number' && !isNaN(parseFloat(rvalue)) && parseFloat(rvalue)>=0)
 	{
 		let rva=parseFloat(rvalue);
-	let volume=(4/3)*3.14*(rva**3);
+	let volume=(4/3)*3.14159265359*(rva**3);
 		let vol=volume.toFixed(4);
 		vele.value=parseFloat(vol);
 	}
